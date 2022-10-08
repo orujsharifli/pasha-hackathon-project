@@ -1,0 +1,41 @@
+@media only screen and (min-width: 0px) {
+
+    /* Desktop menu and nav right */
+    .desktop-menu,
+    .desktop-navright {
+        display: none;
+    }
+
+    /* Menu icon */
+    .navbar .row>*:last-child {
+        display: flex;
+    }
+
+    /* Footer p */
+    .footer .row>* p {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    /* Desktop menu and nav right */
+    .desktop-menu,
+    .desktop-navright {
+        display: flex;
+    }
+
+    /* Menu icon */
+    .navbar .row>*:last-child {
+        display: none;
+    }
+
+    /* Footer p */
+    .footer .row>*:first-child p {
+        text-align: start;
+    }
+
+    .footer .row>*:last-child p {
+        text-align: end;
+    }
+}
